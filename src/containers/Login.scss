@@ -1,0 +1,10 @@
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  .login {
+    width: 400px;
+    text-align: center;
+  }
+}

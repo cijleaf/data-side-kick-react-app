@@ -1,0 +1,20 @@
+@import '../styles/theme.scss';
+
+.changesFieldContainer {
+  cursor: pointer;
+  .changesField {
+    .icon {
+      margin-left: 10px;
+      color: $gray1;
+    }
+  }
+  &.active {
+    .changesField {
+      font-weight: 900;
+      color: $green;
+      .icon {
+        color: $green;
+      }
+    }
+  }
+}

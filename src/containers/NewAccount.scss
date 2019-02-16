@@ -1,0 +1,26 @@
+.newAccountContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  .newAccount {
+    width: 400px;
+    text-align: center;
+  }
+}
+
+.marketingHeader {
+  margin-top: 15px;
+}
+
+.marketingParagraph {
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.marketingList {
+  font-size: 16px;
+  margin-left: 20px;
+  margin-top: 10px;
+}

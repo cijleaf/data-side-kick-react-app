@@ -1,0 +1,10 @@
+@import '../../styles/theme.scss';
+
+.approveField {
+  color: $green;
+  .name {
+    &.disabled {
+      color: transparentize($green, 0.7);
+    }
+  }
+}

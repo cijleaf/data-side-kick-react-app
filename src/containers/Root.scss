@@ -1,0 +1,20 @@
+.app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  .header {
+    padding: 0px;
+  }
+  .stickyHeader {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+  .content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+  }
+}

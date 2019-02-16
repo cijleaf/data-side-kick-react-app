@@ -1,0 +1,13 @@
+.settings {
+  flex-grow: 1;
+  display: flex;
+  .header {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    border: none !important;
+  }
+  .container {
+    flex-grow: 1;
+    display: flex;
+  }
+}

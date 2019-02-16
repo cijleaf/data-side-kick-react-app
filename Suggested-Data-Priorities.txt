@@ -1,0 +1,31 @@
+Priority List for Suggested Data
+
+Since the first 5 fields are displayed for Suggested Data, we need to give
+priority to the most important fields.  Whenever these fields have >1 value,
+these should be displayed as keys with dropdowns for Suggested Data.
+
+For example: If there is a record with multiple values for FirstName, Email,
+Company, Title, and Website, then these would be the 5 fields/dropdowns
+displayed on Suggested Data.  The rest of the fields would be revealed when
+the user clicks "Show Details"
+
+Salesforce > Leads
+
+FirstName
+LastName
+Email
+Company
+Title
+Phone
+Status
+
+
+Salesforce > Contacts
+
+FirstName
+LastName
+Email
+Title
+Phone
+MobilePhone
+LeadSource

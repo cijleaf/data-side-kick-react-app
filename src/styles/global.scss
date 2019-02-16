@@ -1,0 +1,11 @@
+:global {
+  body {
+    height: auto !important;
+    min-height: 100%;
+    display: flex;
+  }
+
+  #app {
+    flex-grow: 1;
+  }
+}

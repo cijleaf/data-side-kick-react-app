@@ -1,0 +1,14 @@
+.alert {
+  display: flex;
+  flex-grow: 1;
+  .content {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .header {
+      font-weight: normal;
+    }
+  }
+}
